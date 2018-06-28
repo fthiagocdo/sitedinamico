@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+blockquote {
+	margin: 20px 0;
+	padding-left: 1.5rem;
+	border-left: 5px solid #f4511e;
+}
+
+.slider .indicators .indicator-item{
+    background-color: #546e7a;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #f4511e;
+}
+
+a.bcrumb:hover, a.btn-icon:hover { 
+   color: #039be5;
+}
+
+a.btn-icon-site:hover { 
+   color: #f4511e;
+}
+
+.btn-icon{
+  color: #546e7a;
+}
+
+.btn-icon-site{
+  color: #546e7a;
+}
+
+.bcrumb{
+  color: #546e7a;
+}
+
+.pagination li.active{
+  background-color: #f4511e;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/*/////////// Login //////////////*/
+.login-container {
+  width: 100%;  
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  background-color: #fff;
+}
+
+.login-wrap {
+  width: 500px;
+  background: #fff;
+}
+
+.login-btn {
+  padding: 0 20px;
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 15px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
